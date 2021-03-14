@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    color: #d6d8d7;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+
+
+.container .content {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    font-family: 'Manrope', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 90px;
+}
+
+.container .content li.text {
+    position: relative;
+    width: 80px;
+    text-align: center;
+}
+
+.container .content li.text:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 30px;
+    bottom: -27px;
+    font-size: 14px;
+    text-align: center;
+    color: #d6d8d7;
+    left: 0;
+}
+
+.container .content li.day:before {
+    content: 'Days';
+}
+
+.container .content li.hour:before {
+    content: 'Hour';
+}
+
+.container .content li.minute:before {
+    content: 'Minute';
+}
+
+.container .content li.second:before {
+    content: 'Second';
+}
+
+
+
+.container .content .point {
+    animation: move 1s linear infinite;
+}
+@keyframes move {
+    0% {
+        opacity: 1;
+        text-shadow: 0 0 20px #0ff;
+    }
+
+    50% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    100% {
+        opacity: 1;
+        text-shadow: 0 0 20px #0ff;
+    }
+}
