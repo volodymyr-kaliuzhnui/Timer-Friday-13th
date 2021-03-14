@@ -98,7 +98,6 @@
         display: block;
         text-align: center;
         font-size: 70px;
-        margin-left: 36px;
         margin-top: 120px;
     }
     .container h1 span {
@@ -106,22 +105,9 @@
         margin-top: 10px;
         color: #980002;
     }
-    .container {
-        background-size: cover;
-        background: url("../img/bg_respons.jpg") no-repeat center;
-    }
-    .container .content {
-        margin-top: 20px;
-        margin-left: 55px;
-    }
-
 }
 
 @media (max-width: 420px) {
-    .container .content {
-        margin-top: 20px;
-        margin-left: 30px;
-    }
     .container .content li.text {
         width: 100%;
     }
