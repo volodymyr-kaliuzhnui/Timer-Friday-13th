@@ -91,7 +91,11 @@
 
 @media (max-width: 1024px) {
     .container {
-        background: url("../img/bg_respons.jpg") center;
+        background: url("../img/bg_respons.jpg") no-repeat center;
+        background-size: cover;
+    }
+    .container .content {
+        margin-top: 190px;
     }
 
 }
@@ -101,7 +105,7 @@
         width: 100%;
     }
     .container .content {
-        margin-top: 176px;
+        margin-top: 145px;
     }
 
 }
