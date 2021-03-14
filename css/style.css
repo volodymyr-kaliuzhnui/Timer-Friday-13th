@@ -111,4 +111,10 @@
     .container .content li.text {
         width: 100%;
     }
+    .container .content {
+        margin-top: 50px;
+    }
+    .container h1 {
+        margin-top: 190px;
+    }
 }
