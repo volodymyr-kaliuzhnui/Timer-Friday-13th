@@ -42,7 +42,7 @@ $(document).ready(function () {
         }
     }
 
-    let friday13 = new Timer('May 13, 2022 00:00:00');
+    let friday13 = new Timer('Jan 13, 2023 00:00:00');
     friday13.init();
     friday13.getNewDate();
     friday13.count()
